@@ -4,9 +4,9 @@
 
 ### Team Members: 
 |
-|1. Bharadwaj Chukkala
-|2. Joseph Pranadeer Reddy Katakam
-|3. Bhargav Kumar Soothram
+|--Bharadwaj Chukkala
+|--Joseph Pranadeer Reddy Katakam
+|--Bhargav Kumar Soothram
 
 ## Contents
 |
