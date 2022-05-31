@@ -10,6 +10,5 @@
 
 
 ## Contents
-|
-|--Part Files and Assembly
-|--
+1. Part Files and Assembly
+2. Package
