@@ -19,6 +19,5 @@
 ## How to run the code
 --> Create a catkin_ws and build it, then source it
 --> Download the package
---> Paste the package in the sourec directory
---
+--> Paste the package in the source directory
 
