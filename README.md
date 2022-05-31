@@ -12,3 +12,13 @@
 ## Contents
 1. Part Files and Assembly
 2. Package
+
+## Dependencies
+
+
+## How to run the code
+--> Create a catkin_ws and build it, then source it
+--> Download the package
+--> Paste the package in the sourec directory
+--
+
