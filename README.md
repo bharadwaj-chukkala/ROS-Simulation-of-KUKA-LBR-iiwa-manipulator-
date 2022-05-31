@@ -2,7 +2,7 @@
 
 ## ENPM662 Final Project (Cyberknife: A non invasive radiosurgical application of robotics)
 
-Team Members: 
+### Team Members: 
 |
 |1. Bharadwaj Chukkala
 |2. Joseph Pranadeer Reddy Katakam
