@@ -6,9 +6,8 @@
 |--
 |Bharadwaj Chukkala
 |Joseph Pranadeer Reddy Katakam
-|
 |Bhargav Kumar Soothram
-|
+
 
 ## Contents
 |
