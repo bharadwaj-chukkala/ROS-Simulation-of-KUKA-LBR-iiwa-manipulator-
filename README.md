@@ -25,7 +25,7 @@
 
 --> Build and source the workspace
 
---> Commands to run
+--> Commands to run (open separate terminals and run in the same order)
 ```bash
   roslaunch Assembly_Toby template_launch.launch
 ```
@@ -35,6 +35,7 @@
 ```bash
   rosrun Assembly_Toby subscriber.py
 ```
+
 
 
 
