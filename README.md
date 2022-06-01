@@ -29,11 +29,11 @@
 ```bash
   roslaunch Assembly_Toby template_launch.launch
 ```
-'''bash
-  
-'''
-  2. rosrun Assembly_Toby publisher.py
-  3. rosrun Assembly_Toby subscriber.py
+```bash
+  rosrun Assembly_Toby publisher.py
+``````bash
+  rosrun Assembly_Toby subscriber.py
+```
 
 
 
