@@ -14,7 +14,9 @@
 2. Package
 
 ## Dependencies
-
+- python 3.9 (works for any python 3 version)
+- Python running IDE. (I used PyCharm IDE to program the Code and Execute the Code)
+- Libraries: numpy, matplotlib.pyplot, heapq, time
 
 ## How to run the code
 --> Create a catkin_ws and build it, then source it
