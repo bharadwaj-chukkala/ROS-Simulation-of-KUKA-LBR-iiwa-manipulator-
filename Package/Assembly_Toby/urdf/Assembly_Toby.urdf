@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Assembly_Toby">
+  <!-- joint_1 transmission -->
+  <transmission name="joint_1_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link1_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <!-- joint_2 transmission -->
+  <transmission name="joint_2_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link2_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <!-- joint_3 transmission -->
+  <transmission name="joint_3_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint3">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link3_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <!-- joint_4 transmission -->
+  <transmission name="joint_4_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint4">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link4_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <!-- joint_5 transmission -->
+  <transmission name="joint_5_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint5">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link5_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <!-- joint_6 transmission -->
+  <transmission name="joint_6_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint6">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link6_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="dummy_link"/>
+  <joint name="dummy_joint" type="fixed">
+    <parent link="dummy_link"/>
+    <child link="base_link"/>
+  </joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-6.1333E-09 0.001192 0.061975"
+        rpy="0 0 0" />
+      <mass
+        value="58.9" />
+      <inertia
+        ixx="3.1312"
+        ixy="-1.4789E-07"
+        ixz="7.3741E-08"
+        iyy="1.9816"
+        iyz="-0.0083382"
+        izz="4.8555" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="0.00218040736347661 -0.0337243626061711 0.13240264410857"
+        rpy="0 0 0" />
+      <mass
+        value="4.10859469064854" />
+      <inertia
+        ixx="0.0329828168996495"
+        ixy="-1.885243223923E-05"
+        ixz="-0.000317717999951916"
+        iyy="0.0332728022225939"
+        iyz="0.00491522141997692"
+        izz="0.0123261606174739" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.2471"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.9"
+      upper="2.1"
+      effort="176"
+      velocity="1.71" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="-0.00224951008157334 -0.0588037877711722 0.0419291900081337"
+        rpy="0 0 0" />
+      <mass
+        value="3.95133738375509" />
+      <inertia
+        ixx="0.0305911214182363"
+        ixy="0.000384143051145242"
+        ixz="1.3991331030136E-05"
+        iyy="0.0110160468915564"
+        iyz="-0.00487226554152378"
+        izz="0.0304178401654204" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0 0 0.2125"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="-0.064561 0 0.99791" />
+    <limit
+      lower="-0.9"
+      upper="2.1"
+      effort="176"
+      velocity="1.71" />
+  </joint>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="0.000407774908811655 0.0296054328873839 0.137231530843093"
+        rpy="0 0 0" />
+      <mass
+        value="3.1752208370526" />
+      <inertia
+        ixx="0.0250811227510902"
+        ixy="-1.22863788990659E-05"
+        ixz="-4.05919789844277E-05"
+        iyy="0.0238065793879945"
+        iyz="-0.00487926204075716"
+        izz="0.00761195363857435" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="0.0010034 -0.19375 6.4919E-05"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0.0051789 0.00033506 0.99999" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="110"
+      velocity="1.75" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="0.00126854168597214 0.0674228239951259 0.0342355072935625"
+        rpy="0 0 0" />
+      <mass
+        value="2.73947739501148" />
+      <inertia
+        ixx="0.0172019613725885"
+        ixy="-0.000121157014887672"
+        ixz="3.03511288037442E-05"
+        iyy="0.00614202735823452"
+        iyz="0.00285119542642798"
+        izz="0.0163920821096097" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0.0011717 7.5805E-05 0.22624"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link3" />
+    <child
+      link="link4" />
+    <axis
+      xyz="-0.010268 -0.00028187 -0.99995" />
+    <limit
+      lower="-0.9"
+      upper="2.1"
+      effort="110"
+      velocity="2.27" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="0.00184747133426656 -0.0213411848305411 0.0873391392526374"
+        rpy="0 0 0" />
+      <mass
+        value="1.69373164551603" />
+      <inertia
+        ixx="0.010074017921833"
+        ixy="9.37665425692705E-05"
+        ixz="-0.000189793907736472"
+        iyy="0.00870732248467382"
+        iyz="0.00308564712839952"
+        izz="0.00447089835426417" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="0.0023439 0.17261 -7.2723E-05"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link4" />
+    <child
+      link="link5" />
+    <axis
+      xyz="0.013578 0.00042129 0.99991" />
+    <limit
+      lower="-0.9"
+      upper="2.1"
+      effort="110"
+      velocity="2.44" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="7.50055666359252E-06 -0.000569408333507271 0.000341254726302915"
+        rpy="0 0 0" />
+      <mass
+        value="1.80835881130111" />
+      <inertia
+        ixx="0.00489234780264599"
+        ixy="4.72697114844994E-05"
+        ixz="1.49334558140658E-05"
+        iyy="0.0035670848019546"
+        iyz="-0.000242823408745221"
+        izz="0.00468642315917161" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.4 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0.0030874 9.5791E-05 0.22736"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link5" />
+    <child
+      link="link6" />
+    <axis
+      xyz="-0.036539 -7.5142E-05 0.99933" />
+    <limit
+      lower="-0.9"
+      upper="2.1"
+      effort="40"
+      velocity="3.14" />
+  </joint>
+  <link
+    name="link7">
+    <inertial>
+      <origin
+        xyz="0.00088317289766324 -6.5339627583698E-05 0.0302627878909889"
+        rpy="0 0 0" />
+      <mass
+        value="0.311354571095797" />
+      <inertia
+        ixx="0.000222562363030159"
+        ixy="5.77714357954496E-08"
+        ixz="3.36766488756988E-06"
+        iyy="0.000221327958811756"
+        iyz="3.6248865261704E-07"
+        izz="0.000341927344423913" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assembly_Toby/meshes/link7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="revolute">
+    <origin
+      xyz="0.0019653 -0.068075 6.6741E-05"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link6" />
+    <child
+      link="link7" />
+    <axis
+      xyz="0.028858 0.00097999 0.99958" />
+    <limit
+      lower="-0.9"
+      upper="2.1"
+      effort="40"
+      velocity="3.14" />
+  </joint>
+</robot>

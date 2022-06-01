@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Name your robot here -->
+<robot name ="" xmlns:xacro="http://wiki.ros.org/xacro">
+
+<!-- Include your urdf files here -->
+	<!-- Include Robot's urdf filepath -->
+	<!-- Include Lidar's urdf filepath -->
+	<xacro:include filename="$(find Assembly_Toby)/urdf/Assembly_Toby.urdf"/>
+
+<!-- Add your gazebo sensors here -->
+	
+
+<!--  Gazebo plugin for control here is already added for you -->
+	<gazebo>
+		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+			<robotNamespace>/Assembly_Toby</robotNamespace>
+			<robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+			<legacyModeNS>true</legacyModeNS>
+		</plugin>
+	</gazebo>
+
+</robot>	
+
+

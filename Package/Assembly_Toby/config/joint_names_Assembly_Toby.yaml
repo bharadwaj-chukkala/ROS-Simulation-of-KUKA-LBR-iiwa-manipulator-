@@ -1,0 +1,42 @@
+controller_joint_names: ['', 'joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6', 'joint7', ]
+Assembly_Toby: # change the name
+  # default controller
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Controller 1
+  joint_1_controller:
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: joint1 # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.5 , d: 10} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0}
+
+  # Controller 2
+  joint_2_controller:
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: joint2 # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.5 , d: 10} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0}
+
+  # Controller 3
+  joint_3_controller:
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: joint3 # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.5 , d: 10} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0}
+
+  # Controller 4
+  joint_4_controller:
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: joint4 # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.5 , d: 10} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0}
+
+  # Controller 5
+  joint_5_controller:
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: joint5 # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.5 , d: 10} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0}
+
+  # Controller 6
+  joint_6_controller:
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: joint6 # Name of the joint.  
+    pid : {p: 1000.0 , i: 0.5 , d: 10} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0}
