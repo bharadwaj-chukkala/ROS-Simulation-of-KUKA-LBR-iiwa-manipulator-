@@ -27,10 +27,11 @@
 
 --> Commands to run
 
-```bash
-  1. roslaunch Assembly_Toby template_launch.launch
+'''bash
+  roslaunch Assembly_Toby template_launch.launch
+'''
   2. rosrun Assembly_Toby publisher.py
   3. rosrun Assembly_Toby subscriber.py
-```
+
 
 
