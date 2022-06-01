@@ -23,3 +23,6 @@
 
 --> Paste the package in the source directory
 
+--> Build and source the package [sfvsvs]
+
+
