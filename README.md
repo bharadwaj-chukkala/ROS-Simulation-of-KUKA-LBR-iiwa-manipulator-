@@ -23,6 +23,14 @@
 
 --> Paste the package in the source directory
 
---> Build and source the package [sfvsvs]
+--> Build and source the workspace
+
+--> Commands to run
+
+```bash
+  1. roslaunch Assembly_Toby template_launch.launch
+  2. rosrun Assembly_Toby publisher.py
+  3. rosrun Assembly_Toby subscriber.py
+```
 
 
