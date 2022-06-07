@@ -41,6 +41,14 @@
 ### Check out the final video here 👇
 https://drive.google.com/file/d/1k4bVFm9eszw6IDoCDINYM6II19aMtiYY/view?usp=sharing
 
+### Contact Author
+
+Name : __Bharadwaj Chukkala__ <br>
+Email : bchukkal@terpmail.umd.edu <br>
+
+https://forthebadge.com/generator/?plabel=coded+in+python&slabel=by+Bharadwaj+ch
+
+
 
 
 
