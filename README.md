@@ -46,7 +46,7 @@ https://drive.google.com/file/d/1k4bVFm9eszw6IDoCDINYM6II19aMtiYY/view?usp=shari
 Name : __Bharadwaj Chukkala__ <br>
 Email : bchukkal@terpmail.umd.edu <br>
 
-[![forthebadge coded in python] (https://forthebadge.com/generator/?plabel=coded+in+python&slabel=by+bharadwaj+ch&ptext=%23FFFFFF&stext=%2387FF00)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 
 
