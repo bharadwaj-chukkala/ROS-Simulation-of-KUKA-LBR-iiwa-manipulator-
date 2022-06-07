@@ -49,6 +49,8 @@ Email : bchukkal@terpmail.umd.edu <br>
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](https://forthebadge.com)
 
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 
 
 
